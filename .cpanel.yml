@@ -2,5 +2,4 @@
 deployment:
   tasks:
     - export DEPLOYPATH=/home/tvschedulescore/public_html/
-    - /bin/cp app $DEPLOYPATH
-    - /bin/cp bootstrap $DEPLOYPATH
+    - /bin/cp * $DEPLOYPATH
