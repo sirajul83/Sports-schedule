@@ -1,0 +1,468 @@
+body{
+    background-color:#f1f1f1;
+    /* background-color:#eaeaea; */
+}
+.mainContentArea {
+    background-color:#fff;
+    padding-top:25px;
+}
+
+.contentArea{
+    background-color:#fff;
+    padding-top:20px;
+}
+.contentArea h2{
+    padding-bottom: 10px;
+}
+.newsContent{
+    padding-top:10px;
+    padding-bottom:10px;
+}
+.newsContent h2{
+    color:#333;
+    font-size:26px;
+    padding-top: 15px;
+    padding-left:5px;
+}
+.newsContent h1{
+    color:#333;
+    font-size:26px;
+    padding-top: 15px;
+}
+.newsContent p{
+    padding-left:5px;
+}
+.newsContent h6{
+    padding-left:5px;
+}
+.newsContent img {
+    width:100%;
+    height:300px;
+    padding-left:5px;
+}
+.flex-news {
+    display: flex;
+    flex-direction: row;
+    font-size: 16px;
+}
+.latest-item-left {
+    background-color: #eaeaea;
+    flex: 50%;
+  }
+.latest-item-right {
+    background-color: dodgerblue;
+    flex: 50%;
+  }
+  .latest-item-right img {
+    width:200px;
+  }
+.navbar-light .navbar-nav .nav-link{
+    color:#222;
+    font-size:19px;
+    transition: 0.2s;
+}
+.navbar-nav li a:hover{
+    text-decoration: underline;
+    color:gray;
+    /* padding:5px; */
+    /* background-color: #fff; */
+}
+.menuArea{
+    margin-left:20px;
+    font-variant: all-petite-caps;
+    font-family: inherit;
+}
+.carousel-item {
+    position: relative;
+    display: none;
+    float: left;
+    width: 100%;
+    margin-right: -100%;
+    height:350px;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    transition: -webkit-transform .6s ease-in-out;
+    transition: transform .6s ease-in-out;
+    transition: transform .6s ease-in-out,-webkit-transform .6s ease-in-out;
+}
+.carousel-caption {
+    position: absolute;
+    right: 1%;
+    bottom: 5px;
+    left: 1%;
+    z-index: 10;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: #fff;
+    text-align: center;
+    background-color:#33333385;
+}
+.sliderlink {
+    color:#fff;
+}
+.latestContent img {
+    width:160px;
+    height:110px;
+}
+.newlatestitem{
+    display: flex;
+    flex-direction: row;
+    font-size: 16px;
+    width:100%;
+    padding-bottom:5px;
+}
+.latestContentLeft {
+    background-color: #eaeaea52;
+    flex: 60%;
+    padding-left: 10px;
+  }
+.latestContentRight {
+    background-color: #222;
+    flex: 40%;
+    margin-left:5px;
+  }  
+.addContent img{
+    width:100%;
+    height:150px
+}
+.sport-name-list {
+    background-color: #0d162cf2;
+    height: 190px;
+    padding-top: 15px;
+}
+.sport-name-list ul {
+   margin:0px;
+   padding:0px;
+} 
+.sport-name-list ul li{
+    list-style: none;
+    float: left;
+    width: 115px;
+    height: 76px;
+    background-color: #0b1020f7;
+    margin-left: 7px;
+    margin-bottom: 10px;
+    padding-top: 25px;
+    text-align: center;
+}
+.sport-name-list ul li a {
+    text-decoration:none;
+    color:#fff;
+    display:block;
+}
+.sport-name-list ul li a:hover{
+    background-color:#f1f1f1;
+    color:#222;
+}
+.sports_date_serch_wrapper{
+    width:100%;
+    background-color: #000000f2;
+    height: 52px;
+}
+.date_search_left{
+    width:77%;
+    height:52px;
+    float:left;
+}
+.date_search_center{
+    width:14%;
+    height:52px;
+    float:left;
+}
+.date_search_right{
+    width:9%;
+    height:52px;
+    float:left;
+}
+.searchInput {
+    height: 36px;
+    margin-top: 10px;  
+}
+.searchButton{
+    height: 36px;
+    width:80px;
+    margin-top: 10px;  
+    margin-left: 7px;  
+}
+.sport-date-list {
+    background-color: #000000f2;
+    height: 52px;
+    padding-top: 0px;
+}
+.sport-date-list ul {
+   margin:0px;
+   padding:0px;
+} 
+.sport-date-list ul li{
+    list-style: none;
+    float: left;
+    width: 80px;
+    height: 52px;
+    background-color: #1a1b1ef7;
+    margin-left: 7px;
+    text-align: center;
+}
+.sport-date-list ul li a {
+    text-decoration:none;
+    color:#fff;
+    display:block;
+}
+.sport-date-list ul li a:hover{
+    background-color:#f1f1f1;
+    margin-top:2px;
+    color:#222;
+}
+
+.sportTeamArea{
+    width:100%;
+    height:50px;
+    clear: both;
+    background-color:#fff;
+}
+.sportsTime {
+    float: left;
+    width: 15%;
+    line-height: 40px;
+    padding-left: 10px;
+    font-weight: 600;
+}
+.sportsTeam {
+    float:left;
+    width:65%;
+}
+.sportsTeam h3{
+    font-size: 16px; 
+    font-weight: 600;
+}
+.sportsTeam span{
+    color: #333; 
+    font-size: 12px;
+}
+.sportsLink {
+    float:left;
+    width:20%;
+}
+.matchSchedulArea{
+    width:100%;
+    clear: both;
+}
+.teamOne {
+    float:left;
+    width:45%;
+}
+.teamOne h2{
+    text-align:right;
+    line-height: 55px;
+    font-size:18px;
+    float:right;
+}
+.leftLogo{
+    float:right;
+}
+.leftLogo img{
+    width:110px;
+    height:100px;
+    /* border-radius: 100%; */
+    padding-right:10px;
+}
+.matchTime {
+    float:left;
+    width:10%;
+}
+.matchTime p {
+    width: 50px;
+    height: 50px;
+    border: 1px solid #222;
+    text-align: center;
+    line-height: 50px;
+    border-radius: 100%;
+    margin-left: 25px;
+}
+.teamTwo {
+    float:left;
+    width:45%;
+}
+.teamTwo h2{
+    text-align:left;
+    line-height: 55px;
+    font-size:18px;
+    float:left
+}
+.RightLogo{
+    float:left;
+}
+.RightLogo img{
+    width:110px;
+    height:110px;
+    /* border-radius: 100%; */
+    padding-left:15px;
+}
+.match_description {
+    padding:10px;
+}
+.copyrightFooter {
+    height:50px;
+    background-color:#222;
+    text-align:center;
+    color:#fff;
+    line-height:45px;
+}
+.text-left{
+    text-align:left;
+}
+.text-right{
+    text-align:right;
+}
+.PrivacyPolicyArea p {
+    padding-left:25px;
+}
+.TermsserviceArea{
+    padding-left:25px;
+}
+.TermsserviceArea h3{
+     font-size:17px;
+     font-weight: 400;
+}
+.TermsserviceArea h1{
+    font-size:20px;
+}
+.TermsserviceArea h4{
+    font-size:17px;
+}
+.hrHeadingbar {
+    width: 100%;
+    height:1px; background-color: #d3d3d3; 
+    clear: both; 
+    margin-top: 5px; 
+    margin-bottom: 5px;
+}
+.sportsDate {
+    border-bottom:1px solid #d5d2d2; 
+    text-align: center; 
+    font-size: 18px;
+}
+.dayMonth {
+    background-color: black; color: #fff; 
+    padding: 2px 5px 1px 5px
+}
+.playDay{
+    font-size: 19px;
+}
+@media (max-width: 800px) {
+    .flex-container {
+      flex-direction: column;
+    }
+    .teamOne {
+        float:left;
+        width:46%;
+    }
+    .matchTime {
+        float:left;
+        width:8%;
+    }
+    .teamTwo {
+        float:left;
+        width:46%;
+    }
+    .matchTime p {
+        width: 20px;
+        height: 20px;
+        border: 1px solid #222;
+        text-align: center;
+        line-height: 21px;
+        border-radius: 100%;
+        font-size: 10px;
+        margin-left: 3px;
+    }
+    .teamOne h2 {
+       font-size:11px;
+       text-align: right;
+       line-height: 21px;
+    }
+    .teamTwo h2 {
+        font-size:11px;
+        text-align: left;
+        line-height: 21px;
+    }
+    .leftLogo img{
+        width:26px;
+        height:26px;
+    }
+    .RightLogo img{
+        width:26px;
+        height:26px;
+    }
+    .sport-name-list {
+        background-color: #000000f2;
+        height: 292px;
+        padding-top: 15px;
+    }
+    .hrHeadingbar {
+        width: 100%;
+        height:1px; background-color: #d3d3d3; 
+        clear: both; 
+        margin-top: 2px; 
+        margin-bottom: 2px;
+    }
+    .sportsDate {
+        border-bottom:1px solid #d5d2d2; 
+        text-align: center; 
+        font-size: 14px;
+    }
+    .dayMonth {
+        background-color: black; color: #fff; 
+        padding: 1px 3px 1px 3px
+    }
+    .playDay{
+        font-size: 15px;
+    }
+    .sport-name-list ul li {
+        list-style: none;
+        float: left;
+        width: 104px;
+        height: 51px;
+        background-color: #1a1b1ef7;
+        margin-left: 4px;
+        margin-bottom: 3px;
+        padding-top: 6px;
+        font-size: 14px;
+        text-align: center;
+    }
+    .sportTeamArea{
+        width:100%;
+        height:50px;
+        clear: left;
+        background-color:#fff;
+    }
+    .sportTeamArea {
+        display: inline-block;
+    }
+    .sportsTime {
+        float: none;
+        width: 100%;
+        text-align:center;
+        font-size:12px;
+        font-weight: 600;
+        line-height: 20px;
+        padding-left: 5px;
+    }
+    .sportsTeam {
+        float:none;
+        width:100%;
+    }
+    .sportsTeam h3{
+        text-align:center;
+        font-size:12px;
+        font-weight: 600;
+    }
+    .sportsTeam span{
+        color: #333; 
+        font-size: 10px;
+    }
+    .sportsLink {
+        float:none;
+        width:100%;
+        text-align:center;
+        font-size:10px;
+    }
+  }
