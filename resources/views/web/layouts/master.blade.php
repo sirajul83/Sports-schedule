@@ -34,9 +34,9 @@
     <link rel="icon" type="image/png" sizes="16x16"  href="{{ asset('')}}public/web/assets/img/favicon.png" />
     <link href="{{ url()->current() }}" rel="canonical" />
 
-    <link rel="stylesheet" href="{{ asset('public/web/assets/css/bootstrap.min.css')}}">
-    <link rel="stylesheet" href="{{ asset('public/web/assets/css/font-awesome.min.css')}}">
-    <link rel="stylesheet" href="{{ asset('public/web/assets/css/customs.css')}}">
+    <link rel="stylesheet" href="{{ asset('web/assets/css/bootstrap.min.css')}}">
+    <link rel="stylesheet" href="{{ asset('web/assets/css/font-awesome.min.css')}}">
+    <link rel="stylesheet" href="{{ asset('web/c/css/customs.css')}}">
     @yield('css')
     <title> @yield('title') </title>
     <!-- Google tag (gtag.js) -->
