@@ -36,7 +36,7 @@
 
     <link rel="stylesheet" href="{{ asset('web/assets/css/bootstrap.min.css')}}">
     <link rel="stylesheet" href="{{ asset('web/assets/css/font-awesome.min.css')}}">
-    <link rel="stylesheet" href="{{ asset('web/c/css/customs.css')}}">
+    <link rel="stylesheet" href="{{ asset('web/aseets/css/customs.css')}}">
     @yield('css')
     <title> @yield('title') </title>
     <!-- Google tag (gtag.js) -->
@@ -60,10 +60,10 @@
       </div>
       @include('web.layouts.footer')
     
-    <script src="{{ asset('public/web/assets/js/jquery-3.4.1.slim.min.js')}}"></script>
-    <script src="{{ asset('public/web/assets/js/popper.min.js')}}"></script>
-    <script src="{{ asset('public/web/assets/js/bootstrap.min.js')}}"></script>
-    <script src="{{ asset('public/web/assets/js/customs.js')}}"></script>
+    <script src="{{ asset('web/assets/js/jquery-3.4.1.slim.min.js')}}"></script>
+    <script src="{{ asset('web/assets/js/popper.min.js')}}"></script>
+    <script src="{{ asset('web/assets/js/bootstrap.min.js')}}"></script>
+    <script src="{{ asset('web/assets/js/customs.js')}}"></script>
     @yield('js')
   </body>
 </html>
