@@ -56,7 +56,7 @@
            <h6> {{!empty($value->meta_description) ? $value->meta_description : '' }}</h6>
         </a>
        <p> {{ date('d-M-Y', strtotime($value->date))}}  &nbsp; by : Jan Kabir</p>
-       <a href="{{ url("news-details/".$value->id."/".$title)}}"><img src="{{ asset('public/admin/images/news')}}/{{$value->image}}" alt="{{$title}}"> </a>
+       <a href="{{ url("news-details/".$value->id."/".$title)}}"><img src="{{ asset('admin/images/news')}}/{{$value->image}}" alt="{{$title}}"> </a>
        <p> @php echo substr($value->description,0,270);  @endphp <a href="{{ url("news-details/".$value->id."/".$title)}}"> Read More... </a></p>
        @endforeach
     </div>
@@ -64,7 +64,7 @@
         @foreach ($right_news as  $value)
         @php  $title = str_replace(' ', '-', $value->meta_title); @endphp
       <h6> <a href="{{ url("news-details/".$value->id."/".$title)}}"> {{$value->title}} </a> </h6>
-     <a href="{{ url("news-details/".$value->id."/".$title)}}"> <img src="{{ asset('public/admin/images/news')}}/{{$value->image}}" alt="{{$value->title}}" alt="{{$title}}"> </a><br /><br />
+     <a href="{{ url("news-details/".$value->id."/".$title)}}"> <img src="{{ asset('admin/images/news')}}/{{$value->image}}" alt="{{$value->title}}" alt="{{$title}}"> </a><br /><br />
       @endforeach
       
     </div>

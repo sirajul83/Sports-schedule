@@ -11,7 +11,7 @@
             <p  style="text-align: center"> {{ date('H:i', strtotime($event_get->play_time)) }}  - {{ date('l', strtotime($event_get->play_time)) }} {{ date('d M', strtotime($event_get->play_time)) }} </p>
             <div class="teamOne"> 
                 <h2>M{{$event_get->team_name1}} </h2> 
-                <div class="leftLogo"> <img src="{{ asset('public/admin/images/team/')}}/{{ $event_get->logo1}}" alt="{{$event_get->team_name1}}" /> </div>
+                <div class="leftLogo"> <img src="{{ asset('admin/images/team/')}}/{{ $event_get->logo1}}" alt="{{$event_get->team_name1}}" /> </div>
             
             </div>
             <div class="matchTime">
@@ -19,7 +19,7 @@
             </div>
             <div class="teamTwo">
                 <h2> {{$event_get->team_name2}}  </h2>
-                <div class="RightLogo"> <img src="{{ asset('public/admin/images/team/')}}/{{ $event_get->logo2}}" alt="{{$event_get->team_name2}}" /> </div>
+                <div class="RightLogo"> <img src="{{ asset('admin/images/team/')}}/{{ $event_get->logo2}}" alt="{{$event_get->team_name2}}" /> </div>
             </div>
         </div>
     </div>
