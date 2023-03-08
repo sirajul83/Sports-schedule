@@ -36,7 +36,7 @@
 
     <link rel="stylesheet" href="{{ asset('web/assets/css/bootstrap.min.css')}}">
     <link rel="stylesheet" href="{{ asset('web/assets/css/font-awesome.min.css')}}">
-    <link rel="stylesheet" href="{{ asset('web/aseets/css/customs.css')}}">
+    <link rel="stylesheet" href="{{ asset('web/assets/css/customs.css')}}">
     @yield('css')
     <title> @yield('title') </title>
     <!-- Google tag (gtag.js) -->

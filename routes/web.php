@@ -23,6 +23,7 @@ Route::get('/match-details/{id}/{title}', [WebController::class, 'match_details'
 Route::get('/entertainment', [WebController::class, 'entertainment'])->name('entertainment');
 Route::get('/health-tips', [WebController::class, 'health_tips'])->name('health_tips');
 Route::get('/contact', [WebController::class, 'contact'])->name('contact');
+Route::post('/contact-save', [WebController::class, 'contact_save'])->name('contact_save');
 Route::get('/privacy-policy', [WebController::class, 'privacy_policy'])->name('privacy_policy');
 Route::get('/terms-of-service', [WebController::class, 'terms_of_service'])->name('terms_of_service');
 

@@ -6,6 +6,7 @@ use Illuminate\Http\Request;
 use App\Models\News;
 use App\Models\SportCategory;
 use App\Models\Event;
+use App\Models\Contact;
 use DB;
 
 class WebController extends Controller
@@ -119,5 +120,26 @@ class WebController extends Controller
     }
     public function terms_of_service(){
         return view('web.terms_of_service');
+    }
+
+    public function contact_save(Request $request){
+        $validated = $request->validate([
+            'name' => ['required'],
+            'email'  => ['required'],
+        ]);
+    
+        $contact_data = new Contact();
+        $contact_data->name = $request->name;
+        $contact_data->email = $request->email;
+        $contact_data->message = $request->message;
+
+        $save =  $contact_data->save();
+
+        if($save){
+            return redirect()->route('contact')->with('flash.message', 'Send Sucessfully!')->with('flash.class', 'success');
+        }else{
+            return redirect()->route('contact')->with('flash.message', 'Somthing went to wrong!')->with('flash.class', 'danger');
+        }
+
     }
 }
