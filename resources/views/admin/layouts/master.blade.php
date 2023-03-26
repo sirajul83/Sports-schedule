@@ -10,17 +10,17 @@
   <meta name="csrf-token" content="{{ csrf_token() }}">
   <title> @yield('title')</title>
   <!-- plugins:css -->
-  <link rel="stylesheet" href="{{ asset('public/admin/vendors/feather/feather.css')}}">
-  <link rel="stylesheet" href="{{ asset('public/admin/vendors/ti-icons/css/themify-icons.css')}}">
-  <link rel="stylesheet" href="{{ asset('public/admin/vendors/css/vendor.bundle.base.css')}}">
+  <link rel="stylesheet" href="{{ asset('admin/vendors/feather/feather.css')}}">
+  <link rel="stylesheet" href="{{ asset('admin/vendors/ti-icons/css/themify-icons.css')}}">
+  <link rel="stylesheet" href="{{ asset('admin/vendors/css/vendor.bundle.base.css')}}">
   <!-- endinject -->
   <!-- Plugin css for this page -->
-  <link rel="stylesheet" href="{{ asset('public/admin/vendors/ti-icons/css/themify-icons.css')}}">
+  <link rel="stylesheet" href="{{ asset('admin/vendors/ti-icons/css/themify-icons.css')}}">
   <!-- End plugin css for this page -->
   <!-- inject:css -->
-  <link rel="stylesheet" href="{{ asset('public/admin/css/vertical-layout-light/style.css')}}">
+  <link rel="stylesheet" href="{{ asset('admin/css/vertical-layout-light/style.css')}}">
   <!-- endinject -->
-  <link rel="shortcut icon" href="{{ asset('public/admin/images/favicon.png')}}" />
+  <link rel="shortcut icon" href="{{ asset('admin/images/favicon.png')}}" />
   @yield('css')
 </head>
 <body>
@@ -50,18 +50,18 @@
   <!-- container-scroller -->
 
   <!-- plugins:js -->
-  <script src="{{ asset('public/admin/vendors/js/vendor.bundle.base.js')}}"></script>
+  <script src="{{ asset('admin/vendors/js/vendor.bundle.base.js')}}"></script>
 
   <!-- inject:js -->
-  <script src="{{ asset('public/admin/js/off-canvas.js')}}"></script>
-  <script src="{{ asset('public/admin/js/hoverable-collapse.js')}}"></script>
-  <script src="{{ asset('public/admin/js/template.js')}}"></script>
-  <script src="{{ asset('public/admin/js/settings.js')}}"></script>
-  <script src="{{ asset('public/admin/js/todolist.js')}}"></script>
+  <script src="{{ asset('admin/js/off-canvas.js')}}"></script>
+  <script src="{{ asset('admin/js/hoverable-collapse.js')}}"></script>
+  <script src="{{ asset('admin/js/template.js')}}"></script>
+  <script src="{{ asset('admin/js/settings.js')}}"></script>
+  <script src="{{ asset('admin/js/todolist.js')}}"></script>
   <!-- endinject -->
   <!-- Custom js for this page-->
-  {{-- <script src="{{ asset('public/admin/js/dashboard.js')}}"></script> --}}
-  {{-- <script src="{{ asset('public/admin/js/Chart.roundedBarCharts.js')}}"></script> --}}
+  {{-- <script src="{{ asset('admin/js/dashboard.js')}}"></script> --}}
+  {{-- <script src="{{ asset('admin/js/Chart.roundedBarCharts.js')}}"></script> --}}
   <!-- End custom js for this page-->
   @yield('js_script')
 </body>
