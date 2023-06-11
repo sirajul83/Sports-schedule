@@ -72,8 +72,3 @@ Route::post('/upload', [NewsController::class, 'uploadimage'])->name('upload');
 Auth::routes();
 
 // Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
-Route::get('/clear-cache', function() {
-    $output = [];
-    \Artisan::call('cache:clear', $output);
-    dd($output);
-});

@@ -3,7 +3,7 @@
 @section('meta_title', "TV Schedule Score, Time Match Result")
 @section('meta_description', "News | TV Schedule Score - live score, Fixtures & Results")
 @section('meta_image', url('/')."/public/web/assets/img/metaimage.jpg")
-@section('title', "News | TV Schedule Score")
+@section('title', " News | TV Schedule Score")
 @section('main_content')
 <div class="row">
     <div class="col-md-8 newsContentSlider">

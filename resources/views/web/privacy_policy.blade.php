@@ -71,7 +71,6 @@
           <strong>  Where we send your data </strong> <br>
           
           Suggested text: An automatic spam detection service may be used to review visitor comments. <br>
-          
         
         </div>
         <div class="col-md-4"> </div>

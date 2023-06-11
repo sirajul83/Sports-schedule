@@ -1,5 +1,5 @@
 @extends('web.layouts.master')
-@section('title', "Contact | TV Schedule Score")
+@section('title', " Contact | TV Schedule Score")
 @section('main_content')
     <h2> &nbsp; Contact </h2>
     <hr />
