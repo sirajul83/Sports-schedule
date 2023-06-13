@@ -84,24 +84,6 @@ class TeamController extends Controller
             return redirect()->route('team.list')->with('flash.message', 'Somthing went to wrong!')->with('flash.class', 'danger');
         }
     }
-
-    /**
-     * Display the specified resource.
-     *
-     * @param  int  $id
-     * @return \Illuminate\Http\Response
-     */
-    public function show($id)
-    {
-        //
-    }
-
-    /**
-     * Show the form for editing the specified resource.
-     *
-     * @param  int  $id
-     * @return \Illuminate\Http\Response
-     */
   
     public function edit($id)
     {

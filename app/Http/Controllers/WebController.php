@@ -20,8 +20,6 @@ class WebController extends Controller
         $rightside_news = News::orderBy('id', 'DESC')->skip(3)->take(3)->get();
         $list_news = News::orderBy('id', 'DESC')->skip(6)->take(3)->get();
         $right_news = News::orderBy('id', 'DESC')->skip(9)->take(2)->get();
-    //    echo "<pre>";
-    //     print_r($slider_news);exit;
         return view('web.web', compact('slider_news','rightside_news','list_news','right_news'));
     }
     public function news_details($id){
